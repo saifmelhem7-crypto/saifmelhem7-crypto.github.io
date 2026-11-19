@@ -5,22 +5,45 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GTA6 Clipper Privacy</title>
 <style>
-  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #222; background: #fff; }
+  body { font-family: system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #222; background: #fff; }
+  h2 { margin-top: 1.6em; }
   @media (prefers-color-scheme: dark) { body { color: #eee; background: #111; } a { color: #8ab4f8; } }
 </style>
 </head>
 <body>
 <h1>GTA6 Clipper – Privacy policy</h1>
 <p>Last updated: 19 November 2026</p>
-<p>GTA6 Clipper is a private tool used only by the owner of one YouTube channel. It has no other users.</p>
-<h2>What it accesses</h2>
-<p>With the owner's permission (Google OAuth), it uses the YouTube Data API to upload videos to the owner's own channel, change their title, description and visibility, list them, and delete them.</p>
-<h2>What it stores</h2>
-<p>Only the IDs and titles of videos it has uploaded to the owner's channel, so it can track what was posted. It does not collect, store or share any data about viewers or other YouTube users, and it does not sell or share any data with third parties.</p>
-<h2>Google user data</h2>
-<p>GTA6 Clipper's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-<h2>Revoking access</h2>
-<p>Access can be removed at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
-<p><a href="index.html">Home</a></p>
+<p>GTA6 Clipper is a private tool used only by the owner of one YouTube channel ("the owner"). It has no other users and is not offered to the public.</p>
+
+<h2>Use of YouTube API Services</h2>
+<p>GTA6 Clipper uses YouTube API Services. By using it, the owner agrees to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Information handled through YouTube API Services is also subject to the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>What information it accesses</h2>
+<p>With the owner's permission, granted through Google OAuth, GTA6 Clipper accesses the owner's own YouTube channel to:</p>
+<ul>
+  <li>upload short videos to the channel (<code>videos.insert</code>);</li>
+  <li>change the title, description and visibility of videos it uploaded (<code>videos.update</code>);</li>
+  <li>list and, when the owner asks, delete those videos (<code>videos.list</code>, <code>videos.delete</code>);</li>
+  <li>read the channel's name and ID to confirm it is connected to the right channel (<code>channels.list</code>).</li>
+</ul>
+<p>It does not access any other channel, and it does not access data about viewers, subscribers, comments or other YouTube users.</p>
+
+<h2>What it stores, and for how long</h2>
+<p>It stores only the IDs and titles of videos it uploaded to the owner's channel, so it can track what was posted. It also stores the OAuth refresh token needed to keep uploading, in a private, access-controlled environment. It does not store any data about viewers or other YouTube users.</p>
+<p>Stored video IDs and titles are kept only while they are needed to manage those videos, and are deleted within 30 days after the owner revokes access or stops using the tool.</p>
+
+<h2>How information is used and shared</h2>
+<p>Information is used only to upload and manage the owner's own videos. It is not sold, and it is not shared with any third party.</p>
+
+<h2>Cookies and device information</h2>
+<p>GTA6 Clipper does not place cookies on, or store or read information from, the devices of anyone who views the owner's videos.</p>
+
+<h2>Revoking access and deleting data</h2>
+<p>Access can be revoked at any time through the Google security settings page at <a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a>. After access is revoked, the tool can no longer reach the channel, and its stored data is deleted within 30 days. The owner can also ask for immediate deletion using the contact below.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:claudefph2023@gmail.com">claudefph2023@gmail.com</a></p>
+
+<p><a href="index.html">Home</a> · <a href="terms.html">Terms of service</a></p>
 </body>
 </html>
